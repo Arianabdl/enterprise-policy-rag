@@ -17,9 +17,9 @@ The system was evaluated against a 10-question "Golden Dataset" measuring three 
 
 ![RAG Averages](rag_averages_chart.png)
 
-* **Context Precision (0.85):** Demonstrates that the retrieval and FlashRank reranking pipeline is highly accurate at fetching the correct policy documents.
-* **Faithfulness (0.78):** Confirms the generator is successfully adhering to the provided context without injecting outside, unauthorized information.
-* **Answer Relevancy (0.54):** Reflects the strict nature of the system prompt; the bot provides blunt, highly concise answers rather than conversational filler, which is ideal for a strict policy librarian.
+* **Context Precision (0.80):** Demonstrates that the retrieval and FlashRank reranking pipeline is highly accurate at fetching the correct policy documents.
+* **Faithfulness (0.70):** Confirms the generator is successfully adhering to the provided context without injecting outside, unauthorized information.
+* **Answer Relevancy (0.53):** Reflects the strict nature of the system prompt; the bot provides blunt, highly concise answers rather than conversational filler, which is ideal for a strict policy librarian.
 
 ![RAG Heatmap](rag_heatmap_chart.png)
 
